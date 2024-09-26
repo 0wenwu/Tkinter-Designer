@@ -4,9 +4,15 @@
 
 - [简体中文](/docs/instructions.zh-CN.md)
 - [Français](/docs/instructions.fr-FR.md)
-- [ગુજરાતી](docs/instructions.gu-GU.md)
-- [عربية](/docs/instructions.ar-DZ.md)
+- [ગુજરાતી](/docs/instructions.gu-GU.md)
+- [Italiano](/docs/instructions.it-IT.md)
+- [عربية](/docs/instructions.ar-DZ.md/)
 - [Turkish](/docs/instructions.tr-TR.md)
+- [Brazil](/docs/instructions.pt-BR.md)
+- [Spanish](/docs/instructions.spa-SPA.md)
+- [Korean](/docs/instructions.kr-KR.md)
+- [Tiếng Việt](/docs/instructions.vi-VN.md)
+- [Русский](/docs/instructions.ru-RU.md)
 
 ___
 
@@ -67,7 +73,7 @@ ___
 
    2. Change your working directory to Tkinter Designer.
 
-      `cd tkinter-designer`
+      `cd Tkinter-Designer`
 
    3. Install the necessary dependencies by running
 
@@ -119,6 +125,7 @@ ___
 | TextArea | Text Area |
 | TextBox | Entry |
 | Image | Canvas.Image() |
+| ButtonHover (EXPERIMENTAL) | Button shown on hover |
 
 <br>
 
@@ -171,7 +178,7 @@ ___
    - Select the button(Rectangle), and any optional text, then group them with <kbd>CTRL/&#8984; + G</kbd>
    - Name the group "Button"
 
-#### Refer to [this video](https://youtu.be/mFjE2-rbpm8?t=275) if you face any problem
+#### Refer to [this video](https://youtu.be/Qd-jJjduWeQ) if you face any problem
 
 <br><br>
 
@@ -185,10 +192,23 @@ ___
    - Select the button, Rectangle, and any optional text, then group them with <kbd>CTRL/&#8984; + G</kbd>
    - Name the group "Button"
 
-#### Refer to [this video](https://youtu.be/mFjE2-rbpm8?t=275) if you face any problem
+#### Refer to [this video](https://youtu.be/Qd-jJjduWeQ) if you face any problem
 
 <br><br>
 
+9. **Button with Hover Effect (EXPERIMENTAL)**
+   - Duplicate the Button you created in the previous step
+     - You can duplicate the Button by selecting the button group and pressing <kbd>CTRL/&#8984; + D</kbd>
+   - Rename the duplicate button to "ButtonHover"
+   - Place the duplicate button above the original button
+   - Make sure it's on the same position as the original button
+     - x and y coordinates should be the same
+   - Make changes to the duplicate button for the hover effect
+     - For example, change the color
+
+#### Refer to [this video](https://watch.screencastify.com/v/saDGrNayjwSmxbFbShB1) if you face any problem
+
+<br><br>
 <a id="Using-Tkinter-Designer"></a>
 
 # Using Tkinter Designer <small>[[Top](#table-of-contents)]</small>
